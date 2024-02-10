@@ -37,13 +37,17 @@ The API provides an endpoint `/api/human-age` that accepts a POST request with a
   }
 
 - **Response**:
+- 
+```
 {
   "name": "michael",
   "age": 63,
   "date_of_birth": 1961
 
 }
+```
 - **To run tests**:
+- 
   ```docker-compose run web python manage.py test```
   
 
